@@ -11,12 +11,12 @@ pipeline {
         }
         stage('step1-2') {
           steps {
-            sh 'echo 2;'
+            sh 'echo "step1-2";'
           }
         }
         stage('step1-3') {
           steps {
-            echo 'hello'
+            echo 'hello step1-3'
           }
         }
       }
